@@ -60,12 +60,12 @@ Install rust:
 curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env
 ```
 
-Clone grin and build a release version
+Clone grin and build a release version.  Note: Go [here](https://github.com/mimblewimble/grin/releases) to determine the latest release version of git and replace "v5.1.2" below with the latest release version.
 
 ```bash
 git clone https://github.com/mimblewimble/grin.git
 cd grin
-git checkout v4.0.2
+git checkout v5.1.2
 cargo build --release
 ```
 
